@@ -7,6 +7,7 @@ if (!res.ok) {
   throw new Error('Failed to fetch data')
 }
 const response = await res.json();
+console.log(response)
 return response;
 }
 
