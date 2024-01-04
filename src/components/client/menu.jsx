@@ -14,7 +14,7 @@ const Menu= () =>{
                 <Container>
                     <Navbar.Brand href="#home">My-Site</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} href="/"><HomeIcon />Home </Nav.Link>
+                        <Nav.Link as={Link} href="/client"><HomeIcon />Home </Nav.Link>
                         <Nav.Link as={Link} href="/"><AccountCircleIcon />Se connecter </Nav.Link>
                         <Nav.Link as={Link} href="/"><HelpIcon />Aide </Nav.Link>
                     </Nav>
